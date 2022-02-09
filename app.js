@@ -68,7 +68,7 @@ function getMetadata(id) {
                 type: "indicator",
                 mode: "gauge+number+delta",
                 value: freq,
-                title: { text: "Washing Frequency", font: { size: 24 } },
+                title: { text: "Weekly Washing Frequency", font: { size: 24 } },
                 gauge: {
                 axis: { range: [null, 10], tickwidth: 1, tickcolor: "black" },
                 bar: { color: "black" },
